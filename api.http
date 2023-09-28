@@ -1,0 +1,13 @@
+
+POST http://localhost:3000/novoAluno
+Content-Type: application/json
+
+{
+    "Matricula": "588",
+    "Nome": "Joel",
+    "Turma": "3° Ano info",
+    "Email": "teste@email.com",
+    "Genero": "M"
+}
+
+###

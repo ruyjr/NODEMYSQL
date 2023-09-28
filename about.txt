@@ -1,0 +1,32 @@
+
+CONSTRUINDO UMA APLICAÇÃO NODEJS COM MYSQL
+MODELAGEM DE ALUNO:
+DATABASE ESCOLA TABELA ALUNOS:
+MATRICULA
+NOME
+EMAIL
+GENERO
+TURMA
+
+==> criar o banco e a tabela
+==> inserir 5 alunos
+
+Configurar o projeto node
+Passos básicos:
+
+1: npm inity ==> na pasta do projeto 
+
+2: instalação de dependencias básicas
+2.1 npm install express
+2.2 npm install --save-dev nodemon
+
+3: configuração do arquivo package.json 
+    scipts: "dev": "nodemon index.js"
+
+npm run dev => execução do nodemon
+
+4. instalação de dependencias especificas
+knex==> npm install knex 
+cors ==> npm install cors
+mysql2 ==> npm install mysql2
+
