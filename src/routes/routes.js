@@ -11,7 +11,9 @@ const AlunoController = require('../controllers/alunoController') // importando 
 
 router.get('/novoAluno', AlunoController.cadastroAluno) 
 
-router.post('/novoAluno', AlunoController.novoAluno) // router.get('/listarAlunos', AlunoController.listarAluno)
+router.post('/novoAluno', AlunoController.novoAluno) 
+
+router.get('/listarAlunos', AlunoController.listarAluno)
 
 // router.get('/buscarAluno/: matricula', AlunoController.buscarAluno)
 

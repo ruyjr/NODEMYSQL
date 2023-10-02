@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const router = require('./src/routes/routes')
-const port = 3001
+const port = 3000
 const path = require('path')
 app.use(cors())
 app.use(express.json())
