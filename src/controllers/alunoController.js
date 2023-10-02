@@ -26,7 +26,7 @@ class alunoController {
       .select("*")
       .table("ALUNOS")
       .then((aluno) => {
-        response.render(path.join(__dirname, "src/views/listar.ejs"), {
+        response.render(path.join(__dirname, "../views/listar.ejs"), {
           alunos: aluno,
         });
       })

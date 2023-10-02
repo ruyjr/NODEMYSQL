@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1>Listar Alunos</h1>
+
+<table>
 <tr>
     <th>Matrícula</th>
     <th>Nome</th>
@@ -19,21 +21,20 @@
 
 </tr>
 <% if (alunos.length > 0) { %>
-    < % alunos.forEach(function(aluno) { %>
-
+    <% alunos.forEach(function(aluno) { %>
 <tr>
     <td><%=aluno.matricula %></td>
     <td><%= aluno.nome %></td>
     <td><%=aluno.turma %></td>
     <td><%=aluno.email %></td>
     <td><%=aluno.genero %></td>
-    <td><a href="/editar/ aluno.matricula %>">Editar</a></td> 
-    <td><a href="/remover/% aluno.matricula %>"> Remover </a></td>
+    <td><a href="/editar/<%=aluno.matricula %>">Editar</a></td> 
+    <td><a href="/remover/<%=aluno.matricula %>"> Remover </a></td>
 </tr>
 
 <% }); %>
 
-<% }; %>
-
+<% } %>
+</table>
 </body>
 </html>
