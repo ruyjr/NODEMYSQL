@@ -11,3 +11,5 @@ Content-Type: application/json
 }
 
 ###
+
+get http://localhost:3000/buscarAluno/1001

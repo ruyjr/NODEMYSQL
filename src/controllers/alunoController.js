@@ -39,7 +39,7 @@ class alunoController {
     console.log(id);
     database
       .select("*")
-      .table("alunos")
+      .table("ALUNOS")
       .where({ matricula: id.matricula })
       .then((aluno) => {
         console.log(aluno);
